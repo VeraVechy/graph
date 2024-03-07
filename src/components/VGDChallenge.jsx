@@ -164,12 +164,14 @@ function VGDC() {
         
         <div className="col-md-6 justify-content-left" data-aos="fade-up">
           <h3 className='text-danger'>A Message From Winner of Season 1</h3>
-          <p>The challenge was really a tough one, you were given a task at night to submit the next day by 6:30pm.
-It was not easy for me, they were some days, I feel like giving up. I will just say within myself noway I'm not giving up on this. I joined this challenge to improve my design skill, it made me took my time to research more for each task given.
-As the winner of this edition, I want to let you know that you can participate in that challenge you having be dreaming of, just step out of your comfort zone and believe me you won't regret.
-Stay tuned for the next edition, I believe you won't like to miss it.
-See you there🫶
-Thank you to the organisers @vechygraphix.</p>
+          <p>
+The challenge was really tough. You were given a task at night to submit the next day by 6:30 p.m. It was not easy for me. There were some days I felt like giving up. I would just say to myself, "No way, I'm not giving up on this." I joined this challenge to improve my design skills. It made me take my time to research more for each task given.
+
+As the winner of this edition, I want to let you know that you can participate in that challenge you have been dreaming of. Just step out of your comfort zone, and believe me, you won't regret it. Stay tuned for the next edition. I believe you won't want to miss it.
+
+See you there! 
+
+Thank you to the organizers @vechygraphix.</p>
 <div>
             <h5>MS. NNEOMA IKENWA CHINAZA</h5>
             </div>
