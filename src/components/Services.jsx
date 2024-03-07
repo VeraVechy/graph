@@ -98,9 +98,12 @@ function Services() {
 
         {/* services */}
 
-        <div className="container mt-5 text-center" data-aos='fade-up'>
+        <div className="container mt-5" data-aos='fade-up'>
+        <div className='text-center'>
           <h2>Complete Design Solutions For Your Brand</h2>
-          <p>Transform your brand with our comprehensive range of design services tailored to meet your every need. </p>
+        <div className="under mt-3 ml-0"></div>
+          <p className='mt-3'>Transform your brand with our comprehensive range of design services tailored to meet your every need. </p>
+          </div>
         <section className="row">
         {cardsData.map((card, index) => (
           <div key={index} className="col-md-4 mb-5" data-aos="fade-up">
@@ -116,6 +119,10 @@ function Services() {
       </section>
       
       </div>
+
+      <div className="col-md-4 text-center" data-aos="fade-up">
+               <a href='/contact' className="btn btn-danger">Get A Quote</a> 
+            </div>
         
       <div className="pt-5 text-center">
       <div className="bg-primary mt-5 mt-5" style={{ minHeight: '200px', padding: '20px 0' }}>

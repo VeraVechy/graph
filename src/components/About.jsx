@@ -1,5 +1,5 @@
 import React from 'react';
-import Us from '../assets/About/ab.jpg';
+import Us from '../assets/About/ab.png';
 import ab1 from '../assets/About/design.jpg';
 import ab2 from '../assets/About/web.jpg';
 import ab3 from '../assets/About/consult.jpg';
@@ -61,8 +61,8 @@ const settings = {
       <div className='container'>
       <div className='text-center' data-aos='fade-up'>
         <h2 className='pt-5'>Welcome To Vechy Graphix</h2>
-        <div className="under mx-auto"></div>
-        <p> Reliable And Affordable Epicenter For Quality And Excellent Designs</p>
+        <div className="under mt-3 ml-0"></div>
+        <p className='mt-3'> Reliable And Affordable Epicenter For Quality And Excellent Designs</p>
       </div>
 
       <div className="container d-flex">
@@ -70,7 +70,7 @@ const settings = {
       <div className="col-md-6" data-aos="fade-up">
           <img src={Us} className="rounded mb-5" alt="About" />
           </div>
-          </div>
+        
 
         
         <div className="col-md-6" data-aos="fade-up">
@@ -110,6 +110,8 @@ const settings = {
     <div className="text-center">
       <a href="/services" className="btn btn-danger">Discover more</a>
     </div>
+    </div>
+
     
     {/* banner */}
       <div className="bg-primary mt-5 mt-5" style={{ minHeight: '200px', padding: '20px 0' }}>
