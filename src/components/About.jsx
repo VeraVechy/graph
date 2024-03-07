@@ -16,8 +16,8 @@ function About() {
   // Array of card data
   const cardsData = [
     { image: ab1, title: 'Graphic Design', content: 'Logo design, Illustrations, Layout designs (magazines, books), Digital graphics (social media posts,banners), Infographics, etc.' },
-    { image: ab2, title: 'Web Development', content: 'Website design and development, UI/UX design, Responsive design for mobile compatibility, Website maintenance and updates, etc' },
-    { image: ab3, title: 'Consultation', content: 'Brand strategy consultation, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs' },
+    { image: ab2, title: 'Web Development', content: 'Website design and development, UI/UX design, Responsive design for mobile compatibility, Website maintenance, etc' },
+    { image: ab3, title: 'Consultancy', content: 'Brand strategy consultation, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs' },
     // Add more card data objects as needed
   ];
 const settings = {
