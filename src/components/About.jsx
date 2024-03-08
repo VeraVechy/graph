@@ -50,13 +50,16 @@ const settings = {
   return (
     <>
       <div className="hero">
-        <div className="container text-center text-light pt-5" data-aos='bounce-in'>
+        <div className="container text-light">
+        <div className="text-center pt-5" data-aos='bounce-in'>
         <h1 className='mt-5 pt-5'>
         Your Creative Hub
         </h1>
         <p style={{fontSize:'24px', fontWeight:'300'}}> Where Ideas Take Shape, & Dreams Come To Life</p>
         </div>
       </div>
+      </div>
+
 
       <div className='container'>
       <div className='text-center' data-aos='fade-up'>
@@ -65,10 +68,10 @@ const settings = {
         <p className='mt-3'> Reliable And Affordable Epicenter For Quality And Excellent Designs</p>
       </div>
 
-      <div className="container d-flex">
+      
       <div className="row mt-5">
       <div className="col-md-6" data-aos="fade-up">
-          <img src={Us} className="rounded mb-5" alt="About" />
+          <img src={Us} className="rounded img-fluid mb-5" alt="About" />
           </div>
         
 
@@ -110,7 +113,7 @@ const settings = {
     <div className="text-center">
       <a href="/services" className="btn btn-danger">Discover more</a>
     </div>
-    </div>
+    
 
     
     {/* banner */}

@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <> 
       <div className="bg-dark text-light mt-1 py-3">
-        <div className="container">
+        <div className="container" >
           <div className="row pt-4">
-            <div className="col-md-4 d-flex align-items-center">
-              <div style={{backgroundColor:'white', height:'60px'}}>
+            <div className="col-md-4 d-flex align-items-left mb-5">
+              <div style={{backgroundColor:'white', height:'50px'}}>
                 <img src={Logo} alt="Logo" />
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-5">
               <h4>QUICK LINKS</h4>
               <ul>
                 <li><a href="/">About</a></li>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <li><a href="/contact">Contact Us</a></li> 
               </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-5">
               <h4>OUR NEWSLETTER</h4>
               <p>Sign up today for tips and latest news and exclusive special offers.</p>
               <input type="email" placeholder='Enter your email' className="form-control mt-3 mb-3" />
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
          
       <div className="container">
-        <div className="footer__social-media" style={{ marginBottom: '20px' }}>
+        <div className="footer__social-media" style={{ marginBottom: '20px', marginTop: '10px'}}>
           <div className='d-flex'>
             <a href="https://twitter.com/GraphixVec72342"><i className="fab fa-twitter"></i></a>
             <a href="https://instagram.com/vechygraphix?igshid=ZGUzMzM3NWJiOQ=="><i className="fab fa-instagram"></i></a>

@@ -55,7 +55,7 @@ function Form() {
   return (
     <>
      <form action="" onSubmit={handleSubmit}>
-            <div className="d-flex mt-3">
+            <div className="d-flex mt-3 mb-5">
               <div className="flex-grow-1 me-2">
               <input type="text" name='name' value={formData.name} className={`form-control ${errors.name && 'is-invalid'}`} placeholder='Name'
             onChange={handleChange}/>
