@@ -17,7 +17,7 @@ function About() {
   const cardsData = [
     { image: ab1, title: 'Graphic Design', content: 'Logo design, Illustrations, Layout designs (magazines, books), Digital graphics (social media posts,banners), Infographics, etc.' },
     { image: ab2, title: 'Web Development', content: 'Website design and development, UI/UX design, Responsive design for mobile compatibility, Website maintenance, etc' },
-    { image: ab3, title: 'Consultancy', content: 'Brand strategy consultation, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs' },
+    { image: ab3, title: 'Consultancy', content: 'Brand strategy consultancy, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs' },
     // Add more card data objects as needed
   ];
 const settings = {
@@ -78,7 +78,7 @@ const settings = {
         
         <div className="col-md-6" data-aos="fade-up">
           <p className='text-danger'>CREATIVE DESIGN COMPANY</p>
-          <h2>Graphic Designs, Branding, Consultations, And More</h2>
+          <h2>Graphic Designs, Branding, Marketing, And More</h2>
           <p>Our vision is rooted in the belief that every brand has a story worth telling, and it's our mission to bring those stories to life with authenticity, passion, and unparalleled creativity. We envision a future where design transcends mere aesthetics, where it becomes a catalyst for meaningful connection and positive change. Through our dedication to excellence and our relentless pursuit of innovation, we aim to empower brands to make a lasting impact in the world, one pixel at a time.</p>
           <a href="/services" className="btn btn-danger">Discover more</a>
           </div>

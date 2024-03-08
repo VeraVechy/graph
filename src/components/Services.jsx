@@ -31,7 +31,7 @@ function Services() {
   const cardsData = [
     { image: ab1, title: 'Graphic Design', content: 'Logo design, Illustrations, Layout designs (magazines, books), Digital graphics (social media posts,banners), Infographics, etc.' },
     { image: ab2, title: 'Web Development', content: 'Website development, UI/UX design, Responsive design for mobile compatibility, Website maintenance and updates, etc.' },
-    { image: ab3, title: 'Consultations', content: 'Brand strategy consultation, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs.' },
+    { image: ab3, title: 'Consultancy', content: 'Brand strategy consultancy, Expert advice on design trends and best practices, Customized solutions tailored to your specific needs.' },
     { image: ab4, title: 'Marketing', content: 'Brand Strategy Consultation, Digital Marketing Graphics, Campaign Development, Consultative Approach.' },
     { image: ab5, title: 'Packaging', content: 'Custom Packaging Design, Label and Packaging Graphics, Packaging Material Selection Guidance, etc.' },
     { image: ab6, title: 'Photo Editing', content: 'Image Retouching, Background Removal, Photo Manipulation, Restoration Services, Product Photography Editing, etc.' },
