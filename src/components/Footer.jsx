@@ -4,7 +4,7 @@ import Logo from '../assets/flogo.png';
 const Footer = () => {
   return (
     <> 
-      <div className="bg-dark text-light mt-1 py-3">
+      <div className="bg-dark text-light mt-5 py-3">
         <div className="container" >
           <div className="row pt-4">
             <div className="col-md-4 d-flex align-items-left mb-5">
@@ -14,12 +14,13 @@ const Footer = () => {
             </div>
             <div className="col-md-4 mb-5">
               <h4>QUICK LINKS</h4>
-              <ul>
-                <li><a href="/">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/vgdc">VGD Challenge</a></li>
-                <li><a href="/contact">Contact Us</a></li> 
+              <ul className='list-unstyled'>
+                <li><a href="/" className='text-light text-decoration-none'>About</a></li>
+                <li><a href="/services" className='text-light text-decoration-none'>Services</a></li>
+                <li><a href="/vgdc" className='text-light text-decoration-none'>VGD Challenge</a></li>
+                <li><a href="/contact" className='text-light text-decoration-none'>Contact Us</a></li> 
               </ul>
+              
             </div>
             <div className="col-md-4 mb-5">
               <h4>OUR NEWSLETTER</h4>
@@ -38,10 +39,7 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Blank section */}
-        <div className="blank-section">
-          {/* Add content here */}
-        </div>
+     
       </div>
     </div>
         <div className="mt-5 text-center">
